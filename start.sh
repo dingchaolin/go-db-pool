@@ -18,6 +18,6 @@ fi
 export GOTRACEBACK=crash
 ulimit -c unlimited
 
-bin/ArtronWebGateWay 1>>log/ArtronWebGateWay_Log.log 2>>log/ArtronWebGateWay_Err.log &
+bin/main 1>>log/main_Log.log 2>>log/main_Err.log &
 
 echo "start successfully"
