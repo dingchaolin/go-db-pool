@@ -1,0 +1,19 @@
+mysql:
+  host: 127.0.0.1
+  name: go
+  port: 3306
+  user:
+  passwd:
+
+mongo:
+  host: 127.0.0.1
+  port: 27017
+  username:
+  password:
+  database: mytest
+
+redis:
+  host: 127.0.0.1
+  port: 6379
+  db: 0
+  password:
